@@ -1,0 +1,50 @@
+[
+ {
+  "RuleID": "terraform-tfvars-password",
+  "Description": "Hardcoded password in Terraform var files (.tf, .tfvars, .hcl)",
+  "StartLine": 63,
+  "EndLine": 63,
+  "StartColumn": 12,
+  "EndColumn": 43,
+  "Match": "admin_password = \"Password1234!\"",
+  "Secret": "admin_password",
+  "File": "terraform.tfvars",
+  "SymlinkFile": "",
+  "Commit": "",
+  "Entropy": 3.3787835,
+  "Author": "",
+  "Email": "",
+  "Date": "",
+  "Message": "",
+  "Tags": [
+   "terraform",
+   "password",
+   "hardcoded"
+  ],
+  "Fingerprint": "terraform.tfvars:terraform-tfvars-password:63"
+ },
+ {
+  "RuleID": "terraform-tfvars-password",
+  "Description": "Hardcoded password in Terraform var files (.tf, .tfvars, .hcl)",
+  "StartLine": 77,
+  "EndLine": 77,
+  "StartColumn": 12,
+  "EndColumn": 43,
+  "Match": "admin_password = \"password12345\"",
+  "Secret": "admin_password",
+  "File": "terraform.tfvars",
+  "SymlinkFile": "",
+  "Commit": "",
+  "Entropy": 3.3787835,
+  "Author": "",
+  "Email": "",
+  "Date": "",
+  "Message": "",
+  "Tags": [
+   "terraform",
+   "password",
+   "hardcoded"
+  ],
+  "Fingerprint": "terraform.tfvars:terraform-tfvars-password:77"
+ }
+]
